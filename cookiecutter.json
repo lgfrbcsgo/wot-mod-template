@@ -1,0 +1,6 @@
+{
+	"mod_name": "My Mod",
+	"mod_slug": "{{cookiecutter.mod_name|lower|replace(' ', '-')}}",
+	"mod_pkg": "mod_{{cookiecutter.mod_slug|replace('-', '_')}}",
+	"mod_description": "This is My Mod." 
+}
